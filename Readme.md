@@ -7,7 +7,8 @@ Register all tasks, which related time, to one managed thread.
 - NO loop  
 :: use `wait` and `notify` to manager task and dispatch
 - flexible ways to define and manage `Task`
- 
+- Thread safty
+
 ## Which stage should NOT use
 - care for 10ms time delay.  
 :: Because of some times dispatch action, the time not very accurate. 
